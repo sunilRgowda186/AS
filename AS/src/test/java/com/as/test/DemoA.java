@@ -28,5 +28,10 @@ public class DemoA
 		Reporter.log("TestCases Works As Per The Reuirement",true);
 		
 	}
+	@Test
+	public void testCloseBrowser()
+	{
+		driver.close();
+	}
 
 }
